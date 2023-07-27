@@ -25,12 +25,13 @@
             }
             
         }
+        
     </style>
 </head>
 
 <body class="font-lato">
     <header>
-        <nav class="max-w-[400px] md:max-w-[720px] lg:max-w-6xl mx-auto rounded-[50px] lg:rounded-full bg-[#F85559] lg:p-4 p-4 mt-8">
+        <nav class="max-w-[400px] md:max-w-[720px] lg:max-w-6xl mx-auto rounded-[50px] lg:rounded-full lg:bg-[#F85559] lg:p-4 p-4 mt-8">
             <div class="flex items-center justify-between">
                 <!-- Right Side Menu (for desktop view) -->
                 <div class="hidden lg:flex space-x-5 pl-5">
@@ -44,12 +45,12 @@
                 <div class="flex items-center gap-2  mr-8">
                     <!-- Add your logo here -->
                     <img src="./images/logo.png" alt="Logo" class="h-8">
-                    <h2 class="text-3xl font-semibold text-white">Fruit Burst</h2>
+                    <h2 class="text-3xl font-semibold text-black lg:text-white">Fruit Burst</h2>
                 </div>
 
                 <!-- Hamburger Menu (for mobile view) -->
                 <div class="lg:hidden">
-                    <button id="hamburger-btn" class="text-3xl text-white">
+                    <button id="hamburger-btn" class="text-3xl text-black">
                         <!-- Example hamburger menu icon -->
                         &#9776;</button>
                 </div>
@@ -57,19 +58,19 @@
                 <!-- Right Side Search Option (for desktop view) -->
                 <div class="hidden lg:flex items-center pr-4 relative">
                     <!-- Add your search input or icon here -->
-                    <input type="text" placeholder="Search" class="rounded-full px-6 py-2 bg-white text-white">
+                    <input type="text" placeholder="Search" class="rounded-full px-6 py-2 bg-white text-black">
                     <i class="fa-solid fa-magnifying-glass absolute left-48"></i>
                 </div>
             </div>
 
             <!-- Left Side Menu (for mobile view) -->
-            <div id="mobile-menu" class="hidden flex flex-col lg:hidden ">
+            <div id="mobile-menu" class="hidden flex flex-col lg:hidden relative ">
                 <!-- Add your mobile menu items here -->
-                <a href="#" class="mr-4 text-white my-2">Home</a>
-                <a href="#" class="mr-4 text-white my-2">About Us</a>
-                <a href="#" class="mr-4 text-white my-2">Shop</a>
-                <a href="#" class="mr-4 text-white my-2">All Fruits</a>
-                <input type="text" placeholder="Search" class="rounded-full px-3 py-2  bg-white text-white">
+                <a href="#" class="mr-4 text-black lg:text-white my-2">Home</a>
+                <a href="#" class="mr-4 text-black lg:text-white my-2">About Us</a>
+                <a href="#" class="mr-4 text-black lg:text-white my-2">Shop</a>
+                <a href="#" class="mr-4 text-black lg:text-white my-2">All Fruits</a>
+                <input type="text" placeholder="Search" class="absolute left-52 md:left-96 -top-9 rounded-full px-3 py-2 bg-slate-300 w-28 md:w-60  lg:bg-white text-black placeholder:text-black">
             </div>
         </nav>
 
@@ -162,26 +163,26 @@
             </div>
 
             <div
-                class="hidden h-48 px-20 py-8 bg-base-100 lg:flex justify-around gap-16 absolute top-[430px] left-32 text-center rounded-lg media-banner">
-                <div class="">
-                    <img class="w-28" src="./images/fruit1.png" alt="">
+                class="hidden max-w-5xl md:flex md:top-[280px] md:left-24 h-40 px-10 py-6 lg:h-48 lg:px-20 lg:py-8 bg-base-100 lg:flex items-center justify-around gap-12 absolute lg:top-[430px] lg:left-32 text-center rounded-lg media-banner">
+                <div class="w-full flex flex-col items-center">
+                    <img class="w-24" src="./images/fruit1.png" alt="">
                     <p>Grapes</p>
 
                 </div>
-                <div class="mt-2">
+                <div class="w-full flex flex-col items-center mb-2">
                     <img class="w-20" src="./images/fruit2.png" alt="">
                     <p>Orange</p>
                 </div>
-                <div class="mt-5">
-                    <img class="w-24" src="./images/fruit3.png" alt="">
+                <div class="w-full flex flex-col items-center">
+                    <img class="w-32" src="./images/fruit3.png" alt="">
                     <p>Mango</p>
                 </div>
-                <div class="mt-4">
-                    <img class="w-24" src="./images/fruit4.png" alt="">
+                <div class="w-full flex flex-col items-center">
+                    <img class="w-28" src="./images/fruit4.png" alt="">
                     <p>Strawberry</p>
                 </div>
-                <div class="mt-3">
-                    <img class="w-24" src="./images/fruit5.png" alt="">
+                <div class="w-full flex flex-col items-center">
+                    <img class="w-28" src="./images/fruit5.png" alt="">
                     <p>Pomegranate</p>
                 </div>
             </div>
@@ -199,21 +200,24 @@
 
                 <div class="grid grid-flow-col gap-5 text-center auto-cols-max mt-5 lg:mt-0">
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
-                            <span style="--value:15;"></span>
+                        <span class="countdown font-mono text-5xl flex items-center text-center">
+                            <span style="--value:11;"></span>
+                            <i class="fa-solid fa-ellipsis-vertical text-3xl pl-3"></i>
                         </span>
                         Days
                     </div>
 
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
+                        <span class="countdown font-mono text-5xl flex items-center text-center">
                             <span style="--value:10;"></span>
+                            <i class="fa-solid fa-ellipsis-vertical text-3xl pl-3"></i>
                         </span>
                         Hours
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
+                        <span class="countdown font-mono text-5xl flex items-center text-center">
                             <span style="--value:24;"></span>
+                            <i class="fa-solid fa-ellipsis-vertical text-3xl pl-3"></i>
                         </span>
                         Minutes
                     </div>
