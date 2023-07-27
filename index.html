@@ -31,7 +31,7 @@
 
 <body class="font-lato">
     <header>
-        <nav class="max-w-[400px] md:max-w-[720px] lg:max-w-6xl mx-auto rounded-[50px] lg:rounded-full lg:bg-[#F85559] lg:p-4 p-4 mt-8">
+        <nav class="max-w-[400px] md:max-w-[720px] lg:max-w-6xl mx-auto rounded-[50px] lg:rounded-full lg:bg-[#F85559] lg:p-6 p-4 mt-8">
             <div class="flex items-center justify-between">
                 <!-- Right Side Menu (for desktop view) -->
                 <div class="hidden lg:flex space-x-5 pl-5">
@@ -59,7 +59,7 @@
                 <div class="hidden lg:flex items-center pr-4 relative">
                     <!-- Add your search input or icon here -->
                     <input type="text" placeholder="Search" class="rounded-full px-6 py-2 bg-white text-black">
-                    <i class="fa-solid fa-magnifying-glass absolute left-48"></i>
+                    <i class="fa-solid fa-magnifying-glass absolute left-[185px]"></i>
                 </div>
             </div>
 
@@ -70,7 +70,10 @@
                 <a href="#" class="mr-4 text-black lg:text-white my-2">About Us</a>
                 <a href="#" class="mr-4 text-black lg:text-white my-2">Shop</a>
                 <a href="#" class="mr-4 text-black lg:text-white my-2">All Fruits</a>
-                <input type="text" placeholder="Search" class="absolute left-52 md:left-96 -top-9 rounded-full px-3 py-2 bg-slate-300 w-28 md:w-60  lg:bg-white text-black placeholder:text-black">
+                <div>
+                    <input type="text" placeholder="Search" class="absolute left-52 md:left-96 -top-9 rounded-full px-3 py-2 bg-slate-300 w-28 md:w-60  lg:bg-white text-black placeholder:text-black placeholder:text-sm">
+                    <i class="fa-solid fa-magnifying-glass absolute -top-6 right-16 md:right-20"></i>
+                </div>
             </div>
         </nav>
 
@@ -89,7 +92,7 @@
                             Now</button>
 
                     </div>
-                    <img src="./images/banner1.png" class="" />
+                    <img src="./images/banner1.png" class="bg-" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
@@ -163,7 +166,7 @@
             </div>
 
             <div
-                class="hidden max-w-5xl md:flex md:top-[280px] md:left-24 h-40 px-10 py-6 lg:h-48 lg:px-20 lg:py-8 bg-base-100 lg:flex items-center justify-around gap-12 absolute lg:top-[430px] lg:left-32 text-center rounded-lg media-banner">
+                class="hidden h-48 px-20 py-8 bg-base-100 lg:flex items-center justify-around gap-12 absolute top-[430px] left-32 text-center rounded-lg media-banner">
                 <div class="w-full flex flex-col items-center">
                     <img class="w-24" src="./images/fruit1.png" alt="">
                     <p>Grapes</p>
@@ -194,7 +197,7 @@
             <div class="flex flex-col p-5 lg:p-0 lg:flex-row justify-between items-center">
                 <div class="text-center lg:text-left">
                     <h1 class="text-4xl font-extrabold font-lato text-black">Deal of The Day</h1>
-                    <p class="lg:max-w-xl md:max-w-xl mt-4">Contrary to popular belief, is not simply random text. It has roots in a
+                    <p class="lg:max-w-xl md:max-w-xl mt-4 text-[#0C0C0C99]">Contrary to popular belief, is not simply random text. It has roots in a
                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
 
@@ -406,7 +409,7 @@
 
             <div class="hero max-w-6xl h-[1300px] md:h-[800px] lg:h-[500px] rounded-md relative"
                 style="background-image: url(./images/team.png);">
-                <div class="hero-overlay bg-opacity-70 rounded-md"></div>
+                <div class="hero-overlay bg-black bg-opacity-60 rounded-md"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md absolute top-12 lg:top-16 p-5">
                         <h1 class="mb-5 text-4xl font-bold text-white">Meet the Team</h1>
@@ -486,12 +489,12 @@
        
         <section class="max-w-6xl mx-auto text-center">
             <h1 class="text-2xl lg:text-4xl font-bold">Why Choose Us</h1>
-            <p class="mt-4 text-center w-[320px] m-auto lg:w-full">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
+            <p class="mt-4 text-center w-[320px] m-auto lg:w-full  text-[#0C0C0C99]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
             </p>
     
     
             <div class="grid grid-cols-1 md:px-48 lg:grid-cols-3 lg:mt-12 gap-10 p-5 lg:p-0">
-                <div class="md:grid lg:hidden w-96 mt-10 ml-3">
+                <div class="md:grid lg:hidden  mt-10 ml-3">
                     <img class="w-[350px]" src="./images/whychoose1.png" alt="">
                 </div>
                 <div class=" w-[400px] space-y-10 p-5 lg:p-0">
@@ -502,7 +505,7 @@
                         <div class="w-80 lg:text-left text-center">
                             <h2 class="text-xl font-bold">Dedicated Team</h2>
                             <p class="w-24 border-b-2 border-gray-500 my-3 lg:mr-56  m-auto"> </p>
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-[#0C0C0C99]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
     
                     </div>
@@ -513,7 +516,7 @@
                         <div class="w-80 lg:text-left text-center">
                             <h2 class="text-xl font-bold">Fresh is Best</h2>
                             <p class="w-24 border-b-2 border-gray-500 my-3 lg:mr-56  m-auto "> </p>
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-[#0C0C0C99]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
     
                     </div>
@@ -524,7 +527,7 @@
                         <div class="w-80 lg:text-left text-center">
                             <h2 class="text-xl font-bold">Gift Certificates</h2>
                             <p class="w-24 border-b-2 border-gray-500 my-3 lg:mr-56  m-auto "> </p>
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-[#0C0C0C99]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
     
                     </div>
@@ -540,7 +543,7 @@
                         <div class="w-80 lg:text-right text-center">
                             <h2 class="text-xl font-bold">Integrated Supplier</h2>
                             <p class="w-24 border-b-2 border-gray-500 my-3 lg:ml-56 m-auto "> </p>
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-[#0C0C0C99]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                         <div class="w-10 h-10 rounded-full bg-gray-200 flex mt-5 justify-center items-center">
                             <i class="fa-solid fa-apple-whole"></i>
@@ -552,7 +555,7 @@
                         <div class="w-80 lg:text-right text-center">
                             <h2 class="text-xl font-bold">Sustainable Practice</h2>
                             <p class="w-24 border-b-2 border-gray-500 my-3 lg:ml-56 m-auto "> </p>
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-[#0C0C0C99]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                         <div class="w-10 h-10 rounded-full bg-gray-200 flex justify-center items-center mt-5"">
                             <i class="fa-solid fa-ice-cream"></i>
@@ -564,7 +567,7 @@
                         <div class="w-80 lg:text-right text-center">
                             <h2 class="text-xl font-bold">The Benefits Only</h2>
                             <p class="w-24 border-b-2 border-gray-500 my-3 lg:ml-56 m-auto "> </p>
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-[#0C0C0C99]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                         <div class="w-10 h-10 rounded-full bg-gray-200 flex justify-center items-center mt-5">
                             <i class="fa-solid fa-thumbs-up"></i>
